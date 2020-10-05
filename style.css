@@ -75,28 +75,30 @@ font-size: 20px;
       
    
     .button1 {
-         left: 10%; 
+         left: 20%; 
          font-size: 15px;
-         top: 10%;
+         top: 75%;
     }
     .button2{
-right: 10%;
+right: 20%;
 font-size: 15px;
-top: 10%;
+top: 75%;
     }
     .button3{
-left:5%;
-font-size: 20px;
-top: 10%;
+left:15%;
+font-size: 15px;
+top: 82%;
+bottom: inherit;
     }
     .button4{
-right: 5%;
+right: 20%;
 font-size: 15px;
-top: 20%;
+top: 82%;
+bottom: inherit;
     }
     .imagen {
         width: 80%;
-        margin-top: 150px;
+        margin: 0px auto;
         
     }
 }
