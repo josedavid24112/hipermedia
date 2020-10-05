@@ -77,23 +77,23 @@ font-size: 20px;
     .button1 {
          left: 2%; 
          font-size: 15px;
-         top: 75%;
+         top: 80%;
     }
     .button2{
 right: 2%;
 font-size: 15px;
-top: 75%;
+top: 80%;
     }
     .button3{
 left:1%;
 font-size: 15px;
-top: 85%;
+top: 90%;
 bottom: inherit;
     }
     .button4{
 right: 1%;
 font-size: 15px;
-top: 85%;
+top: 90%;
 bottom: inherit;
     }
     .imagen {
