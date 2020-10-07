@@ -132,6 +132,10 @@ article p {
     color: white;
     
 }
+.autor {
+    font-family: monospace;
+    font-size: 0.8rem;
+}
 
 
 /* menu */
