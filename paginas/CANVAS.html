@@ -82,7 +82,8 @@
 			</div>
 			<ul class="menu_items">
 				<li class="active"><a href="../index.html">Inicio</a></li>
-<li><a id="cerrar" href="javascript:void(0);" style="display: none;" onclick="ocultarComentarios()">CERRAR</a></li>
+				<li><a id="cerrar" href="javascript:void(0);" style="display: none;"
+						onclick="ocultarComentarios()">CERRAR</a></li>
 
 			</ul>
 			<span class="icon-menu">
@@ -93,17 +94,19 @@
 	<main>
 		<article>
 			<br><br>
-			<p id="text">Los estereotipos sociales han existido desde muchos años atrás, y a medida que avanza el tiempo no se
+			<p id="text">Los estereotipos sociales han existido desde muchos años atrás, y a medida que avanza el tiempo
+				no se
 				acaban sino que empeoran, pues se actualizan debido a lo que la sociedad cree necesitar o lo que la
 				sociedad piensa que usted necesita, y así se van creando patrones de conducta y belleza innecesarios que
 				conducen a estados de introspección donde la gente empieza a cuestionarse y dejarse afectar
 				psicológicamente, hasta el punto de considerar cambiar para estar acorde a las estándares de la
 				sociedad.</p>
-				<div class="container-button">
-					<a href="javascript:void(0);" class="button2" onclick="mostrarComentarios();">VER MAS</a>
-					
-				</div>
-			<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:550px; height:400px; display: none;">
+			<div class="container-button">
+				<a href="javascript:void(0);" class="button2" onclick="mostrarComentarios();">VER MAS</a>
+
+			</div>
+			<div id="animation_container"
+				style="background-color:rgba(255, 255, 255, 1.00); width:550px; height:400px; display: none;">
 				<canvas id="canvas" width="550" height="400"
 					style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
 				<div id="dom_overlay_container"
@@ -116,16 +119,17 @@
 </body>
 <script>
 	function mostrarComentarios() {
-    document.getElementById('animation_container').style.display = 'block';
-	document.getElementById('cerrar').style.display = 'block';
-	document.getElementById('text').style.display = 'none';
+		document.getElementById('animation_container').style.display = 'block';
+		document.getElementById('cerrar').style.display = 'block';
+		document.getElementById('text').style.display = 'none';
 
-} 
-function ocultarComentarios() {
-    document.getElementById('animation_container').style.display = 'none';
-    document.getElementById('cerrar').style.display = 'none';
+	}
+	function ocultarComentarios() {
+		document.getElementById('animation_container').style.display = 'none';
+		document.getElementById('cerrar').style.display = 'none';
 
-}
+	}
 
 </script>
+
 </html>
