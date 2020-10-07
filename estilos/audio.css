@@ -56,6 +56,13 @@ article p {
   color: white;
   
 }
+.audio {
+  margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
 
 
 /* menu */
