@@ -85,6 +85,7 @@
 				<li><a id="cerrar" href="javascript:void(0);" style="display: none;"
 						onclick="ocultarComentarios()">CERRAR</a></li>
 
+
 			</ul>
 			<span class="icon-menu">
 				<i class="fa-bars"></i>
@@ -103,6 +104,7 @@
 				sociedad.</p>
 			<div class="container-button">
 				<a href="javascript:void(0);" class="button2" onclick="mostrarComentarios();">VER MAS</a>
+				<a href="./texto.html" id="sig" class="button" style="display: none;">SIGUIENTE</a>
 
 			</div>
 			<div id="animation_container"
@@ -122,11 +124,14 @@
 		document.getElementById('animation_container').style.display = 'block';
 		document.getElementById('cerrar').style.display = 'block';
 		document.getElementById('text').style.display = 'none';
+		document.getElementById('sig').style.display = 'block';
 
 	}
 	function ocultarComentarios() {
 		document.getElementById('animation_container').style.display = 'none';
 		document.getElementById('cerrar').style.display = 'none';
+		document.getElementById('text').style.display = 'block';
+
 
 	}
 

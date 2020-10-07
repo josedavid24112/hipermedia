@@ -78,7 +78,37 @@ article p {
   
 }
 
+/* boton */
+.container-button {
+    
+  margin: auto;
+  display: flex;
+  align-items: center;
+justify-content: center;
+  
+}
 
+.button {
+  padding: 10px 20px;
+  font-size: 0.8rem;
+  background:  rgba(255, 255, 255, 0.623);
+  border: 1px solid black;
+  color: black;
+  margin-top: 20px;
+  transition: background 300ms;
+  border-bottom: gray solid 5px;
+  border-right: gray solid 3px;
+  text-decoration: none;
+  position: relative;
+  margin-left: 10px;
+ 
+}
+
+.button:hover {
+  background: black;
+  color: white;
+  border: none;
+}
 
 
 /* menu */
