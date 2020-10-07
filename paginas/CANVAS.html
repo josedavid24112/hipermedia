@@ -92,7 +92,7 @@
 	<main>
 		<article>
 			<br><br>
-			<p>Los estereotipos sociales han existido desde muchos años atrás, y a medida que avanza el tiempo no se
+			<p id="text">Los estereotipos sociales han existido desde muchos años atrás, y a medida que avanza el tiempo no se
 				acaban sino que empeoran, pues se actualizan debido a lo que la sociedad cree necesitar o lo que la
 				sociedad piensa que usted necesita, y así se van creando patrones de conducta y belleza innecesarios que
 				conducen a estados de introspección donde la gente empieza a cuestionarse y dejarse afectar
@@ -116,7 +116,8 @@
 <script>
 	function mostrarComentarios() {
     document.getElementById('animation_container').style.display = 'block';
-    document.getElementById('cerrar').style.display = 'block';
+	document.getElementById('cerrar').style.display = 'block';
+	document.getElementById('text').style.display = 'none';
 
 } 
 function ocultarComentarios() {
