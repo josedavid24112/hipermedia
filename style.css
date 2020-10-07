@@ -1,10 +1,19 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Russo One', sans-serif;
+
 }
+html {
+    font-size: 18px;
+    
+}
+
+
 body {
     background:url(./imagenes/imagenhiper.jpeg);
-    background-size: 5%;
+    background-size: 15%;
     
     
    
